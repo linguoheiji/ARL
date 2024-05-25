@@ -6,7 +6,7 @@ volumes:
 
 services:
     web:
-        image: tophant/arl:${ARL_VERSION:-latest}
+        image: linguoheiji/arl:arl_web
         container_name: arl_web
         restart: unless-stopped
         depends_on:
@@ -27,7 +27,7 @@ services:
           - TZ=Asia/Shanghai
 
     worker:
-        image: tophant/arl:${ARL_VERSION:-latest}
+        image: linguoheiji/arl:arl_worker
         container_name: arl_worker
         restart: unless-stopped
         depends_on:
@@ -47,7 +47,7 @@ services:
           - TZ=Asia/Shanghai
 
     scheduler:
-      image: tophant/arl:${ARL_VERSION:-latest}
+      image: linguoheiji/arl:arl_scheduler
       container_name: arl_scheduler
       restart: unless-stopped
       depends_on:
@@ -61,7 +61,7 @@ services:
         - TZ=Asia/Shanghai
 
     mongodb:
-        image: mongo:4.0.27
+        image: linguoheiji/arl:arl_mongodb
         container_name: arl_mongodb
         restart: always
         volumes:
@@ -74,7 +74,7 @@ services:
 
 
     rabbitmq:
-      image: rabbitmq:3.13.1-management-alpine
+      image: linguoheiji/arl:arl_rabbitmq
       container_name: arl_rabbitmq
       restart: always
       environment:
