@@ -8,8 +8,13 @@
 
 
 修复后的运行命令
+
+克隆
+
 git clone https://github.com/linguoheiji/ARL/
 
+进入docker目录
+cd docker
 
 
 执行这以下两条命令
