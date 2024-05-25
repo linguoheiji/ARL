@@ -9,15 +9,17 @@
 
 修复后的运行命令
 
+创建目录
+
+mkdir docker_arl
+
+进入docker_arl目录
+
+cd docker_arl
+
 下载
 
 wget https://github.com/linguoheiji/ARL/releases/download/2.6.2/docker.zip
-
-进入docker目录
-
-创建目录mkdir docker_arl
-
-cd docker
 
 
 执行这以下两条命令
