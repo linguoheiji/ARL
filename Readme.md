@@ -3,8 +3,15 @@
 [![Docker Images](https://img.shields.io/docker/pulls/tophant/arl.svg)](https://hub.docker.com/r/tophant/arl)
 [![Github Issues](https://img.shields.io/github/issues/TophantTechnology/ARL.svg)](https://github.com/TophantTechnology/ARL/issues)
 [![Github Stars](https://img.shields.io/github/stars/TophantTechnology/ARL.svg)](https://github.com/TophantTechnology/ARL/stargazers)
+
+
+
+
 修复后的运行命令
 git clone https://github.com/linguoheiji/ARL/
+
+
+
 执行这以下两条命令
 sudo apt install docker.io
 apt install docker-compose 
