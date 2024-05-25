@@ -14,7 +14,7 @@
 git clone https://github.com/linguoheiji/ARL/
 
 进入docker目录
-
+创建目录mkdir docker_arl
 cd docker
 
 
