@@ -9,9 +9,9 @@
 
 修复后的运行命令
 
-克隆
+下载
 
-git clone https://github.com/linguoheiji/ARL/
+wget https://github.com/linguoheiji/ARL/releases/download/2.6.2/docker.zip
 
 进入docker目录
 
