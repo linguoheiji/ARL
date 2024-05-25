@@ -14,11 +14,19 @@ git clone https://github.com/linguoheiji/ARL/
 
 执行这以下两条命令
 sudo apt install docker.io
+
+
 apt install docker-compose 
+
+
 拉源镜像
+
  docker-compose -f docker-compose.yml pull
+ 
  创建数据库并启动镜像
+ 
 docker volume create arl_db
+
 docker-compose up -d
 
 ## 1# 注明
